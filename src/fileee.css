@@ -1,0 +1,3 @@
+.mainHeader > nav {
+  -webkit-app-region: drag;
+}
