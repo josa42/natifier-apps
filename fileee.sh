@@ -17,6 +17,7 @@ mogrify icon.png -bordercolor transparent -border 60 icon.png
 nativefier 'https://my.fileee.com/' \
   --title-bar-style=hidden \
   --inject ./src/fileee.css \
+  --inject ./src/fileee.js \
   --single-instance \
   --fast-quit \
   --icon ./icon.png \
